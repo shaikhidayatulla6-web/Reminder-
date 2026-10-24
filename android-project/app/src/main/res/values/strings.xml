@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="action_mark_done">Mark as Done</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="channel_urgent_title">Urgent &amp; High Priority Reminders</string>
+    <string name="channel_default_title">Standard Reminders</string>
+    <string name="widget_description">Displays upcoming scheduled reminders and 1-tap quick add button.</string>
+</resources>

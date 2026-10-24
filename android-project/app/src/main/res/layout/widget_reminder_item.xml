@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/widget_item_bg"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <!-- Category Emoji Container -->
+    <TextView
+        android:id="@+id/tv_widget_item_emoji"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="🔔"
+        android:textSize="16sp" />
+
+    <!-- Reminder Title & Scheduled Time -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp">
+
+        <TextView
+            android:id="@+id/tv_widget_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Reminder title"
+            android:textColor="#0F172A"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_widget_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Today, 2:30 PM"
+            android:textColor="#64748B"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!-- Priority Pill / Tag -->
+    <TextView
+        android:id="@+id/tv_widget_item_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MED"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        android:textColor="#2563EB"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+</LinearLayout>

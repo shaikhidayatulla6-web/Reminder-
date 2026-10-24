@@ -1,0 +1,6 @@
+{
+  "name": "RemindMe — Complete Android Reminder App",
+  "description": "All-in-one Android reminder application with smart notifications, recurring schedules, custom categories, calendar view, and complete Kotlin Jetpack Compose + Room + AlarmManager source project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

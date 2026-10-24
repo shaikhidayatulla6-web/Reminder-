@@ -1,0 +1,10 @@
+{
+  "name": "RemindMe — All-in-One Android Reminder App",
+  "short_name": "RemindMe",
+  "description": "Smart reminders with OriginOS 7 Liquid Glass UI, live countdown widgets, custom categories, recurring schedules, and tactile vibration alerts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary"
+}
